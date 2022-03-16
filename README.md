@@ -13,7 +13,7 @@
 El proyecto puede descargarse de las siguientes maneras: 
 - git clone https://github.com/tonyjdev/prueba_laravel.git
 - git clone git@github.com:tonyjdev/prueba_laravel.git
-- archivo zip
+- archivo zip: [Descargar](https://github.com/tonyjdev/prueba_laravel/releases/tag/v0.1)
 
 ##Archivos adicionales
 
@@ -25,7 +25,8 @@ Como archivos adicionales se incluye:
 
 ##Instalación
 
-El archivo .zip incluye todos los paquetes (node_modules) por lo que no sería necesario realizar ningún tipo de instalación en este sentido.
+El archivo .zip incluye todos los paquetes (node_modules) por lo que no sería necesario realizar ningún tipo de instalación en este sentido:
+[Descargar](https://github.com/tonyjdev/prueba_laravel/releases/tag/v0.1)
 
 Si la descarga se ha hecho a través de la clonación del proyecto, ejecutar en la raíz:
 
