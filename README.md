@@ -1,6 +1,6 @@
 # Prueba Laravel
 
-##Herramientas y versiones utilizadas
+## Herramientas y versiones utilizadas
 
 - Laravel 8.83.5
 - PHP 7.4.27
@@ -8,14 +8,14 @@
 - Composer 2.2.8
 - NodeJS 16.14.0 LTS
 
-##Descargar la prueba
+## Descargar la prueba
 
 El proyecto puede descargarse de las siguientes maneras: 
 - git clone https://github.com/tonyjdev/prueba_laravel.git
 - git clone git@github.com:tonyjdev/prueba_laravel.git
 - archivo zip: [Descargar](https://github.com/tonyjdev/prueba_laravel/releases/tag/v0.1)
 
-##Archivos adicionales
+## Archivos adicionales
 
 Como archivos adicionales se incluye:
 
@@ -23,7 +23,7 @@ Como archivos adicionales se incluye:
 - Archivo SQL para la creación de la BBDD al completo
 
 
-##Instalación
+## Instalación
 
 El archivo .zip incluye todos los paquetes (node_modules) por lo que no sería necesario realizar ningún tipo de instalación en este sentido:
 [Descargar](https://github.com/tonyjdev/prueba_laravel/releases/tag/v0.1)
@@ -36,7 +36,7 @@ composer install
 npm install
 ```
 
-##Base de Datos
+## Base de Datos
 
 Para poner en marcha la base de datos tenemos dos opciones:
 
@@ -54,14 +54,14 @@ CREATE DATABASE prueba_sql;
 php artisan migrate
 ```
 
-##Arrancar el servidor
+## Arrancar el servidor
 
 Una vez instalada la aplicación podemos arrancar el servidor desde el terminal con el siguiente comando en la raíz del proyecto:
 ```
 php artisan serve
 ```
 
-##Probando el proyecto
+## Probando el proyecto
 
 Se incluye en el proyecto el archivo de una colección de Postman para poder probarlo en dicha herramienta.
 Esta colección se encuentra en la siguiente ruta:
