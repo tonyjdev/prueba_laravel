@@ -5,6 +5,7 @@
 - Laravel 8.83.5
 - PHP 7.4.27
 - MariaDB 10.4.22
+- Apache 2.4.52
 - Composer 2.2.8
 - NodeJS 16.14.0 LTS
 
