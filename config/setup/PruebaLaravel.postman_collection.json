@@ -1,0 +1,184 @@
+{
+	"info": {
+		"_postman_id": "b4fa0287-8210-4330-91c8-96505f14aa08",
+		"name": "Prueba Laravel",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Listar Estudiantes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/estudiante",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"estudiante"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener Estudiante por ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/estudiante/1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"estudiante",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Nuevo Estudiante",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/estudiante/?nombre=juanita&email=test@test.com&telefono=123456789&sexo=femenino&direccion=mi casa, 5&dni_nif=11111111H",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"estudiante",
+						""
+					],
+					"query": [
+						{
+							"key": "nombre",
+							"value": "juanita"
+						},
+						{
+							"key": "email",
+							"value": "test@test.com"
+						},
+						{
+							"key": "telefono",
+							"value": "123456789"
+						},
+						{
+							"key": "sexo",
+							"value": "femenino"
+						},
+						{
+							"key": "direccion",
+							"value": "mi casa, 5"
+						},
+						{
+							"key": "dni_nif",
+							"value": "11111111H"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Actualizar Estudiante",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/estudiante/?nombre=pepito&email=prueba@test.com&telefono=987654321&sexo=masculino&direccion=mi casa, 8&dni_nif=11222333J&id=1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"estudiante",
+						""
+					],
+					"query": [
+						{
+							"key": "nombre",
+							"value": "pepito"
+						},
+						{
+							"key": "email",
+							"value": "prueba@test.com"
+						},
+						{
+							"key": "telefono",
+							"value": "987654321"
+						},
+						{
+							"key": "sexo",
+							"value": "masculino"
+						},
+						{
+							"key": "direccion",
+							"value": "mi casa, 8"
+						},
+						{
+							"key": "dni_nif",
+							"value": "11222333J"
+						},
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Eliminar Estudiante por ID",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/estudiante/1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"estudiante",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
